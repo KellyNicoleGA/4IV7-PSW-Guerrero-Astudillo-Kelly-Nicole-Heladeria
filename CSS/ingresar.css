@@ -1,0 +1,116 @@
+body{
+    background-color: #eaac8b;
+}
+ul{
+    list-style-type: none;
+    background-color: #6d597a;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: #fee9e1;
+    font-family: Alstoria;
+    font-size: 30px;
+    text-align: center;
+    padding: 26px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #b56576;
+}
+a{
+    display: inline-block;
+    color: #fee9e1;
+    font-family: Alstoria;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+.imagelogo{
+    align-content: center;
+    padding: 0;
+    width: 170px; 
+    padding-right: 650px;
+}
+footer{
+    background-color: #6d597a;
+    overflow: hidden;
+    margin: 2rem;
+    padding: 1rem;
+    color: #fee9e1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+footer a{
+    display: block;
+    color: #fee9e1;
+    font-family: Alstoria;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+.texto{
+    color: white;
+    font-family: Calibri Light;
+    font-size: 1.3rem;
+
+}
+.crearc{
+    display: block;
+    color: #fee9e1;
+    font-family: Calibri Light;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;
+
+}
+form{
+    background-color: #6d597a;
+    color: #fee9e1;
+    font-family: Calibri Light;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 2rem;
+    width: 30%;
+    
+}
+
+img, form{
+    display: inline-block;
+    vertical-align: middle;   
+    
+    
+}
+input{
+    background-color: #eaac8b;
+    border-color: #eaac8b;
+    margin: 1.5rem;
+    padding: .5rem;
+    color: white;
+}
+.boton1, .boton2{
+    background-color: #eaac8b;
+    color: white;
+    font-family: Calibri Light;
+    font-size: 1.3rem;
+    border-color: #eaac8b;
+    
+
+}
+.regresar{
+    display: block;
+    color: #6d597a;
+    font-family: Alstoria;
+    font-size: 30px;
+    text-align: center;
+    padding: 26px;
+    text-decoration: none;
+}

@@ -1,0 +1,62 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script language="JavaScript" type ="text/JavaScript" src = "./JS/validarformulario.js"></script>
+    <link  rel="icon"   href="img/logo6.png" type="image/png" />
+    <link rel="stylesheet" href="./CSS/ingresar.css">
+</head>
+<body>
+        
+            <ul>
+                <li >
+                    <img src="img/logo4.png" alt="heladería" class="imagelogo"/>
+                </li>
+                
+                <li>
+                    <a href="carrito.html">Carrito</a>
+                </li>
+                <li>
+                    <a href="comprar.html">Comprar</a>
+                </li>
+                <li>
+                    <a href="ingresar.html">Ingresar</a>
+                </li>
+            </ul>
+            <div >
+                <p class="texto">
+                    Si eres nuevo ingresa y si no, <a class="crearc" href="crearcuenta.html"> crea una cuenta</a>
+
+                </p>
+                <form background="/img/bola.jpg" method = "GET" name = "fomulario" action = "ingresar.html" onsubmit ="return validar(this)" >
+                    Nombre :
+                    <br>
+                    <input type="text" name="nombre" size="20">
+                    <br>
+                    Edad:
+                    <br>
+                    <input type="text" name="edad" size="2">
+                    <br>
+                    Email:
+                    <br>
+                    <input type = "text" name = "email" size = "30">
+                    <br>
+                    <input type="submit" value="Enviar Datos" name = "enviar" class="boton1">
+                    <br>
+                    <input type ="reset" value="Borrar" name = "borrar" class="boton2">
+
+                </form>
+                <img src="img/bola.jpg" alt="heladería" style="width: 40%;"/>
+        
+            </div>
+       
+    <footer>
+        <a href="contactanos.html">Contactanos</a>
+        Hecho por: Guerrero Astudillo Kelly Nicole
+    </footer>
+</body>
+</html>
